@@ -5,9 +5,7 @@ export default function Layout({children}: {children: React.ReactNode}) {
             {children}
             <div className="border p-4">Example Footer</div>
 
-             <div className="border p-4 bg-green-100">
-                {children}
-             </div>
+            
 
         
         </section>
